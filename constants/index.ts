@@ -6,8 +6,8 @@ import {
 } from "@heroicons/react/24/outline";
 
 export const NavLinks = [
-  { name: "Dashboard", href: "/dashboard", icon: HomeIcon },
-  { name: "Products", href: "/products", icon: ArchiveBoxIcon },
-  { name: "Orders", href: "/orders", icon: ListBulletIcon },
-  { name: "Settings", href: "/settings", icon: Cog6ToothIcon },
+  { name: "Dashboard", href: "/admin/dashboard", icon: HomeIcon },
+  { name: "Products", href: "/admin/products", icon: ArchiveBoxIcon },
+  { name: "Orders", href: "/admin/orders", icon: ListBulletIcon },
+  { name: "Settings", href: "/admin/settings", icon: Cog6ToothIcon },
 ];

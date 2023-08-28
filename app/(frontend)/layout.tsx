@@ -1,8 +1,6 @@
-import { Provider } from "@/components/Provider";
-import "./globals.css";
+import "@/app/globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import Layout from "@/components/Layout";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,9 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body suppressHydrationWarning={true} className={inter.className}>
-        <Provider attribute="class" defaultTheme="dark">
-          <Layout>{children}</Layout>
-        </Provider>
+        {children}
       </body>
     </html>
   );

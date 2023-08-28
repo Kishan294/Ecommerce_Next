@@ -7,7 +7,6 @@ import { Button } from "@/components/ui/button";
 import {
   Form,
   FormControl,
-  FormDescription,
   FormField,
   FormItem,
   FormLabel,
@@ -52,7 +51,7 @@ const ProductForm = ({ heading, productInfo }: ProductFormProps) => {
   }
 
   if (goback) {
-    redirect("/products");
+    redirect("/admin/products");
   }
 
   return (

@@ -5,7 +5,7 @@ import Sidebar from "./Sidebar";
 import Topbar from "./Topbar";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { signIn, useSession } from "next-auth/react";
-import { Button } from "./ui/button";
+import { Button } from "../ui/button";
 import Image from "next/image";
 
 const Layout = ({ children }: { children: React.ReactNode }) => {

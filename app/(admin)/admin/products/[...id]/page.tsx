@@ -1,6 +1,6 @@
 "use client";
 
-import ProductForm from "@/components/ProductForm";
+import ProductForm from "@/components/admin/ProductForm";
 import { Product } from "@/types";
 import axios from "axios";
 import { useParams } from "next/navigation";
